@@ -2,7 +2,7 @@ var modal = document.querySelector(".modal");
 var button = document.querySelector(".button");
 var closebutton = document.querySelector("dialog > .button");
 
-function buttonOnClick(event) {
+function buttonOnClick() {
     if (modal.open == true) {
         modal.close();
     } else if (modal.open == false) {
