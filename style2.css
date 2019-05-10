@@ -1,9 +1,9 @@
-﻿.modal {
+.modal {
     position: fixed;
     left: 1fr;
     top: 1fr;
-    width: 100px;
-    height: 100px;
+    width: 30%;
+    height: 30%;
 }
     .modal::backdrop {
         position: fixed;
@@ -14,3 +14,9 @@
         background-color: black;
         opacity: 0.5;
     }
+.button {
+    font-size:40pt;
+}
+a {
+    font-size: 40pt;
+}
