@@ -1,4 +1,5 @@
 function filterTable() {
+    event.preventDefault();
     var input, filter, found, table, tr, td, i, j;
     input = document.querySelector(".input");
     filter = input.value.toUpperCase();
